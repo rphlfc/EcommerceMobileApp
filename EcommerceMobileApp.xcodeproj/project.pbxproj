@@ -11,6 +11,10 @@
 		64F277A025520FAC0074D3DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F2779F25520FAC0074D3DD /* ContentView.swift */; };
 		64F277A225520FAF0074D3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F277A125520FAF0074D3DD /* Assets.xcassets */; };
 		64F277A525520FAF0074D3DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F277A425520FAF0074D3DD /* Preview Assets.xcassets */; };
+		64F277AF255213E00074D3DD /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F277AE255213E00074D3DD /* CustomNavigationView.swift */; };
+		64F277B3255214FE0074D3DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F277B2255214FE0074D3DD /* MenuView.swift */; };
+		64F277B725521C2F0074D3DD /* LatestFavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F277B625521C2F0074D3DD /* LatestFavoritesView.swift */; };
+		64F277BA25521EA50074D3DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64F277B925521EA50074D3DD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		64F277A125520FAF0074D3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F277A425520FAF0074D3DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64F277A625520FAF0074D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F277AE255213E00074D3DD /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		64F277B2255214FE0074D3DD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		64F277B625521C2F0074D3DD /* LatestFavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LatestFavoritesView.swift; path = EcommerceMobileApp/LatestFavoritesView.swift; sourceTree = SOURCE_ROOT; };
+		64F277B925521EA50074D3DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 		64F2779125520FAC0074D3DD = {
 			isa = PBXGroup;
 			children = (
+				64F277B925521EA50074D3DD /* README.md */,
 				64F2779C25520FAC0074D3DD /* EcommerceMobileApp */,
 				64F2779B25520FAC0074D3DD /* Products */,
 			);
@@ -52,6 +61,7 @@
 		64F2779C25520FAC0074D3DD /* EcommerceMobileApp */ = {
 			isa = PBXGroup;
 			children = (
+				64F277AD255213BD0074D3DD /* View */,
 				64F2779D25520FAC0074D3DD /* EcommerceMobileAppApp.swift */,
 				64F2779F25520FAC0074D3DD /* ContentView.swift */,
 				64F277A125520FAF0074D3DD /* Assets.xcassets */,
@@ -67,6 +77,16 @@
 				64F277A425520FAF0074D3DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64F277AD255213BD0074D3DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64F277B625521C2F0074D3DD /* LatestFavoritesView.swift */,
+				64F277B2255214FE0074D3DD /* MenuView.swift */,
+				64F277AE255213E00074D3DD /* CustomNavigationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F277BA25521EA50074D3DD /* README.md in Resources */,
 				64F277A525520FAF0074D3DD /* Preview Assets.xcassets in Resources */,
 				64F277A225520FAF0074D3DD /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F277AF255213E00074D3DD /* CustomNavigationView.swift in Sources */,
+				64F277B725521C2F0074D3DD /* LatestFavoritesView.swift in Sources */,
+				64F277B3255214FE0074D3DD /* MenuView.swift in Sources */,
 				64F277A025520FAC0074D3DD /* ContentView.swift in Sources */,
 				64F2779E25520FAC0074D3DD /* EcommerceMobileAppApp.swift in Sources */,
 			);
