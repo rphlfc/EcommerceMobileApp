@@ -4,10 +4,13 @@ Encontrei esse [design de aplicativo de ecommerce](https://dribbble.com/shots/11
 ## Screenshots
 <p align="center">
     <img src="https://user-images.githubusercontent.com/16376748/98052132-25f62680-1e14-11eb-9577-8f5b5abf824c.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/98182162-d97a1c00-1ee3-11eb-8a43-ffb9db9a778c.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
-[Vídeo no YouTube](https://youtu.be/YNDZtLV5RdM)
+- [Vídeo no YouTube 1/3](https://youtu.be/YNDZtLV5RdM)
+- [Vídeo no YouTube 2/3](https://youtu.be/HyBd9fbtBiw)
+- Vídeo no YouTube 3/3 - Em breve 
  
 ## Requisitos
 - iOS 14

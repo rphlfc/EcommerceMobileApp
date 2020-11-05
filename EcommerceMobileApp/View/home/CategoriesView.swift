@@ -1,5 +1,5 @@
 //
-//  MenuView.swift
+//  CategoriesView.swift
 //  EcommerceMobileApp
 //
 //  Created by Raphael Cerqueira on 03/11/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MenuView: View {
+struct CategoriesView: View {
     let menuItems = ["All", "Top Rated", "Recommended", "New Colors"]
     @State var selectedItem: Int = 0
     
@@ -29,8 +29,8 @@ struct MenuView: View {
     }
 }
 
-struct MenuView_Previews: PreviewProvider {
+struct CategoriesView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView()
+        CategoriesView()
     }
 }

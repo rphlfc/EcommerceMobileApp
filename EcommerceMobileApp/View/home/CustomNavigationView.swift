@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct TopView: View {
+    @Binding var isMenuVisible: Bool
+    
     var body: some View {
         HStack {
-            Button(action: {}, label: {
+            Button(action: {
+                withAnimation {
+                    isMenuVisible.toggle()
+                }
+            }, label: {
                 VStack(spacing: 4) {
                     HStack {
                         Capsule()
@@ -66,9 +72,11 @@ struct TitleView: View {
 }
 
 struct CustomNavigationView: View {
+    @Binding var isMenuVisible: Bool
+    
     var body: some View {
         VStack {
-            TopView()
+            TopView(isMenuVisible: $isMenuVisible)
             
             TitleView()
                 .padding(.top)
@@ -79,6 +87,6 @@ struct CustomNavigationView: View {
 
 struct CustomNavigationView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomNavigationView()
+        CustomNavigationView(isMenuVisible: .constant(false))
     }
 }
